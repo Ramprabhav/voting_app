@@ -1,0 +1,39 @@
+{
+  "name": "voting_app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "voting-app",
+    "backend",
+    "javascript"
+  ],
+  "homepage": "https://github.com/Ramprabhav/voting_app#readme",
+  "bugs": {
+    "url": "https://github.com/Ramprabhav/voting_app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramprabhav/voting_app.git"
+  },
+  "license": "ISC",
+  "author": "Ramprabhav Sahani",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
